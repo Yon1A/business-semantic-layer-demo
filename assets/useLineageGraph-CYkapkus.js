@@ -1,0 +1,1 @@
+import{p as n,F as d}from"./PlayerPerformanceStarterGuide-Du6USbfL.js";function o(e){return n({queryKey:["lineage-graph",e.objectId,e.versionId,e.depth],queryFn:()=>d({objectId:e.objectId,depth:e.depth,versionId:e.versionId}),enabled:e.enabled})}export{o as u};
