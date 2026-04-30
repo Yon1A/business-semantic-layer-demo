@@ -1,0 +1,1 @@
+import{t as n,O as t}from"./index-B-PMrn4j.js";function o(e){return n({queryKey:["lineage-graph",e.objectId,e.versionId,e.depth],queryFn:()=>t({objectId:e.objectId,depth:e.depth,versionId:e.versionId}),enabled:e.enabled})}export{o as u};
