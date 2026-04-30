@@ -1,1 +1,0 @@
-import{t as n,N as t}from"./index-BN_DXAon.js";function o(e){return n({queryKey:["lineage-graph",e.objectId,e.versionId,e.depth],queryFn:()=>t({objectId:e.objectId,depth:e.depth,versionId:e.versionId}),enabled:e.enabled})}export{o as u};

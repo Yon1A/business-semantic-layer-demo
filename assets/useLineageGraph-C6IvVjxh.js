@@ -1,0 +1,1 @@
+import{t as n,P as t}from"./index-CY-ARl0x.js";function o(e){return n({queryKey:["lineage-graph",e.objectId,e.versionId,e.depth],queryFn:()=>t({objectId:e.objectId,depth:e.depth,versionId:e.versionId}),enabled:e.enabled})}export{o as u};
