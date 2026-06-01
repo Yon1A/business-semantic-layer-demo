@@ -1,1 +1,0 @@
-const r="semantic-layer:recently-viewed";function o(){try{const e=window.localStorage.getItem(r);if(!e)return[];const t=JSON.parse(e);return Array.isArray(t)?t:[]}catch{return[]}}function a(e){const t={...e,viewedAt:new Date().toISOString()},n=o().filter(c=>c.objectId!==e.objectId);window.localStorage.setItem(r,JSON.stringify([t,...n].slice(0,8)))}export{o as a,a as r};
