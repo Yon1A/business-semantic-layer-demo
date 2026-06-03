@@ -1,0 +1,1 @@
+import{j as e}from"./index-CKRXYxQs.js";function d({message:r}){return e.jsx("div",{className:"rounded-bsl-lg border border-red-200 bg-red-50 px-6 py-5 text-sm text-red-700",children:r})}export{d as E};
