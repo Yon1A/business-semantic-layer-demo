@@ -1,1 +1,0 @@
-import{e as n,aa as d}from"./index-CKRXYxQs.js";function o(e){return n({queryKey:["lineage-graph",e.objectId,e.versionId,e.depth],queryFn:()=>d({objectId:e.objectId,depth:e.depth,versionId:e.versionId}),enabled:e.enabled})}export{o as u};
